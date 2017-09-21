@@ -16,3 +16,18 @@ a[href$=".org/"]{
 a[href*="page1"]{
     color: red;
 }
+h1{
+    background-color: gray;
+}
+body p{
+    background-color: red;
+}
+div > p{
+    background-color: green;
+}
+body > div ~ p{
+    background-color: yellow;
+}
+body > div + p{
+    background-color: pink;
+}
