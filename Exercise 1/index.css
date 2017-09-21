@@ -4,3 +4,15 @@
 .fontsize30{
 font-size: 30px;
 }
+a[href*="spec"]{
+    color:green;
+  }
+a[href^="https://dev.w3.org/html5/html-author/charref"]{
+    color: blue;
+}
+a[href$=".org/"]{
+    color: yellow;
+}
+a[href*="page1"]{
+    color: red;
+}
